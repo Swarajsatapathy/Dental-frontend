@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links .active {
+    border-bottom: 2px solid #00bcd4;
+}
+
+
+.hero {
+    text-align: center;
+    background-image: url(https://img.freepik.com/premium-photo/dental-concept-healthy-equipment-tools-dental-care-professional-banner_36325-1246.jpg?w=1060);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 80px 20px;
+}
+
+.btn {
+    background-color: #ff4081;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: #cf3568;
+}
+
+
+.why-choose {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+.footer {
+    background-color: #222; 
+    color: #f0f0f0; 
+    padding: 30px 0; 
+    text-align: center;
+    margin-top: 50px; 
+    font-family: Arial, sans-serif; 
+}
+
+.footer-content p {
+    margin: 8px 0; 
+    font-size: 0.95em;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.footer-links li {
+    margin: 8px 20px; 
+}
+
+.footer-links a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 500; 
+    transition: color 0.3s ease, transform 0.2s ease; 
+}
+
+.footer-links a:hover {
+    color: #00bcd4; 
+    transform: scale(1.05); 
+}
+
+
+@media (max-width: 600px) {
+    .footer-links {
+        flex-direction: column; 
+    }
+    .footer-links li {
+        margin: 10px 0; 
+    }
+}
